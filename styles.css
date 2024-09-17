@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+
+}
+#topNav {
+    display: flex;
+    height: 35px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#bottomNav {
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 50px;
+}
+#imgJordan {
+    align-self: center;
+    height: 20px;
+    width: auto;
+}
+#topRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 325px;
+    font-size: 13px;
+    align-self: center;
+}
+#imgNike {
+    align-self: center;
+    height: 70px;
+    width: auto;
+}
+#navCenter {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    width: 475px;
+    justify-content: space-between;
+    margin-left: 8vw;
+}
+#navSearch {
+    display: flex;
+    align-self: center;
+    border-radius: 50px;
+    background-color: whitesmoke;
+}
+#navSearch:hover {
+    background-color: lightgray;
+}
+#navRight {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 270px;
+}
+.material-symbols-outlined {
+    align-self: center;
+    border-radius: 50px;
+    padding: 5px;
+}
+#searchText {
+    align-self: center;
+    color: gray;
+}
+img {
+    cursor: pointer;
+}
+#topClick {
+    cursor: pointer;
+}
+#topClick:hover {
+    color: gray;
+}
+#bottomClick {
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+#bottomClick:hover {
+    border-bottom: 2px solid black;
+}
+.material-symbols-outlined:hover {
+    border-radius: 50px;
+    background-color: whitesmoke;
+    padding: 5px;
+}
